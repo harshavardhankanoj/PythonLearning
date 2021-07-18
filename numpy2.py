@@ -1,0 +1,26 @@
+import numpy as np
+a=np.array(([1,2,3,4],[4,5,6,7]))
+print(a[1][3])
+c=np.array(([[1,2,3],[4,5,6,7],[8,9,10]],[[-1,-2,-3],[-4,-5,-6],[-7,-8,-9]],[[2,5,6],[8,9,20],[9,7,23]]))
+print("array Dimension:",a.ndim,c.ndim)
+print(c[2][2][2])
+print(c.shape)
+print(type(c))
+a=np.arange(100)
+print(a)
+d=list(range(10))
+print(d)
+t=np.random.permutation(np.arange(10))
+print(t)
+c=np.random.rand(2,3,4)
+print(c)
+D=np.arange(100).reshape(4,25)
+print(D)
+L=[1,2,3,4,5]
+print(L[::3])
+a=np.arange(100)
+idx=np.argwhere(a==99)[0][0]
+print(idx)
+a=np.round(10*np.random.rand(5,4))
+print(a)
+
